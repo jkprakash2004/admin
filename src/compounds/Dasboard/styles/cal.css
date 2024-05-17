@@ -1,0 +1,44 @@
+.calculator{
+    width: 100%;
+    height: 500px;    
+    display: grid;
+    place-items: center;
+}
+.calc-box{
+    width: 30%;        
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.calc-box .span{
+    width: 65px;   
+    user-select: none; 
+    font-size: 19px;
+    padding: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 60px;
+    border: 1px solid greenyellow;
+    background-color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.calc-box .span:focus{
+    outline: none;
+    user-select: none;
+}
+.calc-box .str-cal{
+    width: 89%;
+    height: 50px;
+    border: 1px solid greenyellow;    
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;            
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px ;
+}
+
+.calc-box .cal-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
